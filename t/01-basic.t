@@ -1,13 +1,16 @@
 use v6.c;
 use Test;
 
-plan 4;
+plan 7;
 
 for (
-  "print q/hello/",   "hello",
-  "say q/hello/",     "hello\n",
-  "say Int",          "(Int)\n",
-  "put (1,2)",        "1 2\n",
+  "print q/hello/",           "hello",
+  "print q/hello/,q/world/",  "helloworld",
+  "say q/hello/",             "hello\n",
+  "say q/hello/,q/world/",    "helloworld\n",
+  "say Int",                  "(Int)\n",
+  "say Int, Str",             "(Int)(Str)\n",
+  "put (1,2)",                "1 2\n",
 ) -> $string, $expected {
 
     my $output = shell(

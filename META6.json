@@ -5,7 +5,7 @@
   ],
   "build-depends" : [ ],
   "depends" : [ ],
-  "description" : "provide fast unbuffered print / say / put",
+  "description" : "provide fast print / say / put",
   "license" : "Artistic-2.0",
   "name" : "unprint",
   "perl" : "6.c",
@@ -18,5 +18,5 @@
     "UTILS"
   ],
   "test-depends" : [ ],
-  "version" : "0.0.1"
+  "version" : "0.0.2"
 }

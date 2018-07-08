@@ -3,7 +3,7 @@
 NAME
 ====
 
-unprint - provide fast unbuffered print / say / put
+unprint - provide fast print / say / put
 
 SYNOPSIS
 ========
@@ -17,7 +17,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module provides a fast `print`, `say` and `put` that will directly write to STDOUT of the OS without any buffering. As such, this should give you basically the same speed as Perl 5's unbuffered output, with auto-flushing enabled (typically the `$|++` idiom).
+This module provides a fast `print`, `say` and `put` that will directly write to STDOUT of the OS without any overhead caused by determining which `$*OUT` to actually use. As such, this should give you similar speeds as Perl 5's output.
 
 AUTHOR
 ======
