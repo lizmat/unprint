@@ -39,10 +39,10 @@ unprint - provide fast print / say / put
 
 =head1 DESCRIPTION
 
-This module provides a fast C<print>, C<say> and C<put> that will directly
-write to STDOUT of the OS without any overhead caused by determining which
-C<$*OUT> to actually use.  As such, this should give you similar speeds as
-Perl 5's output.
+This module provides fast C<print>, C<say> and C<put> subroutines that will
+directly write to STDOUT of the OS without any overhead caused by determining
+which C<$*OUT> to actually use.  As such, this should give you similar speeds
+as Perl 5's output.
 
 =head1 AUTHOR
 

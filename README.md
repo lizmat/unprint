@@ -17,7 +17,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module provides a fast `print`, `say` and `put` that will directly write to STDOUT of the OS without any overhead caused by determining which `$*OUT` to actually use. As such, this should give you similar speeds as Perl 5's output.
+This module provides fast `print`, `say` and `put` subroutines that will directly write to STDOUT of the OS without any overhead caused by determining which `$*OUT` to actually use. As such, this should give you similar speeds as Perl 5's output.
 
 AUTHOR
 ======
