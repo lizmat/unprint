@@ -2,6 +2,9 @@ Revision history for unprint
 
 {{$NEXT}}
 
+0.0.3  2020-02-17T21:17:07+01:00
+    - Make sure tests pass on Windows 10, Markus Holzer++
+
 0.0.2  2018-07-08T16:01:47+02:00
     - Added support for multiple parameters to print / say /put
     - Removed emphasis on being unbuffered

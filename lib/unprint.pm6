@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module unprint:ver<0.0.2>:auth<cpan:ELIZABETH>;
+unit module unprint:ver<0.0.3>:auth<cpan:ELIZABETH>;
 
 # We need nqp ops everywhere here, so make it global
 use nqp;

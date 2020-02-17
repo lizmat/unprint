@@ -13,8 +13,8 @@ for (
   "put (1,2)",                "1 2\n",
 ) -> $string, $expected {
 
-    my $output = shell(
-      "$*EXECUTABLE -I lib -M unprint -e '$string'", :out
+    my $output = run(
+      $*EXECUTABLE, '-I', 'lib', '-M', 'unprint', '-e', $string, :out
     ).out.slurp;
     is $output, $expected, "did '$string' give '$expected'";
 }
