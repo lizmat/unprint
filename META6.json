@@ -1,22 +1,26 @@
 {
-  "auth" : "cpan:ELIZABETH",
-  "authors" : [
+  "auth": "zef:lizmat",
+  "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "description" : "provide fast print / say / put",
-  "license" : "Artistic-2.0",
-  "name" : "unprint",
-  "perl" : "6.c",
-  "provides" : {
-    "unprint" : "lib/unprint.pm6"
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "provide fast print / say / put",
+  "license": "Artistic-2.0",
+  "name": "unprint",
+  "perl": "6.c",
+  "provides": {
+    "unprint": "lib/unprint.rakumod"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/lizmat/unprint.git",
-  "tags" : [
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/unprint.git",
+  "tags": [
     "UTILS"
   ],
-  "test-depends" : [ ],
-  "version" : "0.0.3"
+  "test-depends": [
+  ],
+  "version": "0.0.4"
 }

@@ -1,6 +1,6 @@
-use v6.c;
+use v6.d;
 
-unit module unprint:ver<0.0.3>:auth<cpan:ELIZABETH>;
+unit module unprint:ver<0.0.4>:auth<zef:lizmat>;
 
 # We need nqp ops everywhere here, so make it global
 use nqp;
@@ -46,14 +46,14 @@ as Perl 5's output.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/unprint . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018, 2020 Elizabeth Mattijsen
+Copyright 2018, 2020, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under
 the Artistic License 2.0.

@@ -2,6 +2,12 @@ Revision history for unprint
 
 {{$NEXT}}
 
+0.0.4  2021-09-08T20:33:36+02:00
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+    - Update copyright year
+
 0.0.3  2020-02-17T21:17:07+01:00
     - Make sure tests pass on Windows 10, Markus Holzer++
 
