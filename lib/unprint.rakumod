@@ -1,7 +1,3 @@
-use v6.d;
-
-unit module unprint:ver<0.0.4>:auth<zef:lizmat>;
-
 # We need nqp ops everywhere here, so make it global
 use nqp;
 
