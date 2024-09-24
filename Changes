@@ -1,6 +1,8 @@
 Revision history for unprint
 
 {{$NEXT}}
+
+0.0.6  2024-09-24T13:49:07+02:00
     - Modernize pod and test file extension
     - Add CI badge for each OS
     - Add sponsor button and link

@@ -18,9 +18,11 @@
   ],
   "source-url": "https://github.com/lizmat/unprint.git",
   "tags": [
-    "UTILS", "PRINT", "FASTER"
+    "UTILS",
+    "PRINT",
+    "FASTER"
   ],
   "test-depends": [
   ],
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
