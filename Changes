@@ -1,6 +1,10 @@
 Revision history for unprint
 
 {{$NEXT}}
+    - Modernize pod and test file extension
+    - Add CI badge for each OS
+    - Add sponsor button and link
+    - Update copyright year
 
 0.0.5  2021-11-07T12:06:59+01:00
     - Remove the module statement, we don't need it anymore

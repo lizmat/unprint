@@ -27,18 +27,21 @@ unprint - provide fast print / say / put
 
 =head1 SYNOPSIS
 
-  use unprint;
+=begin code :lang<raku>
 
-  print "foo";
-  say "bar";
-  put 42;
+use unprint;
+
+print "foo";
+say "bar";
+put 42;
+
+=end code
 
 =head1 DESCRIPTION
 
 This module provides fast C<print>, C<say> and C<put> subroutines that will
 directly write to STDOUT of the OS without any overhead caused by determining
-which C<$*OUT> to actually use.  As such, this should give you similar speeds
-as Perl 5's output.
+which C<$*OUT> to actually use.
 
 =head1 AUTHOR
 
@@ -47,13 +50,17 @@ Elizabeth Mattijsen <liz@raku.rocks>
 Source can be located at: https://github.com/lizmat/unprint . Comments and
 Pull Requests are welcome.
 
+If you like this module, or what I'm doing more generally, committing to a
+L<small sponsorship|https://github.com/sponsors/lizmat/>  would mean a great
+deal to me!
+
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018, 2020, 2021 Elizabeth Mattijsen
+Copyright 2018, 2020, 2021, 2024 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under
 the Artistic License 2.0.
 
 =end pod
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4
