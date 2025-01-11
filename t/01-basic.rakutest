@@ -1,4 +1,3 @@
-use v6.c;
 use Test;
 
 plan 7;
@@ -19,4 +18,4 @@ for (
     is $output, $expected, "did '$string' give '$expected'";
 }
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab sw=4
